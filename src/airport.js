@@ -1,7 +1,10 @@
 function Airport() {
 }
 
-Airport.protoype.planes = function(){
+Airport.prototype.planes = function(){
   return [];
-  
+};
+
+Airport.prototype.clearForLanding = function(plane){
+
 };
